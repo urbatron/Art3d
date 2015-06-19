@@ -1,0 +1,47 @@
+@charset "utf-8";
+html{
+background: black;	
+}
+ul {
+	list-style:none;
+	
+}
+
+.d-carousel ul li {
+	background: #fff;
+	padding: 10px;
+
+}
+
+.d-carousel .jcarousel-container {
+	display: block;
+	margin: 200px auto;
+
+}
+
+.d-carousel .jcarousel-container-horizontal {
+	width: 570px;
+	padding: 0 40px;
+}
+
+.d-carousel .jcarousel-item-horizontal {
+	margin-left: 10px;
+	margin-right: 11px;
+}
+
+.d-carousel .jcarousel-next-horizontal {
+	position: absolute;
+	top: 50px;
+	right: -100px;
+	margin-right: 3px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: transparent url(../images/blog-arrows.jpg) no-repeat;
+}
+.carousel img{
+width: 150px;
+heigth: 113px;	
+}
+
+

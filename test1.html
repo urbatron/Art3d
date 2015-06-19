@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>test1</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script>
+
+
+ function RandColor()
+{
+col = Math.round(255.0*Math.random());
+r = col.toString(16);
+col = Math.round(255.0*Math.random());
+g=col.toString(16);
+col = Math.round(255.0*Math.random());
+d=col.toString(16);
+col=r+g+d;
+return col;
+}
+onload = function ()
+{
+	for (i=0;i<10;i++){
+		var col = RandColor();
+		var sqr = document.createElement ('div');
+		with (sqr.style) border = '2px solid #'+ col,
+				 float = 'left',
+                 margin = '20px',
+                 width = height = '50px';				 
+		document.body.appendChild (sqr);
+	}
+}
+
+</script>
+</head>
+
+<body>
+</body>
+</html>
